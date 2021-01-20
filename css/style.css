@@ -19,9 +19,22 @@ ul {
   margin-bottom: 0px;
   margin-top: 0px;
 }
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
+
 /* ========ABOUT_ALL_END======== */
 
 /* =====HEADER_START===== */
+
+.header {
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
 
 .container-logo {
   margin-bottom: 20px;
@@ -57,9 +70,6 @@ ul {
   margin-right: 50px;
 }
 
-.nav-menu li {
-  padding: 32px;
-}
 .nav-menu a {
   display: block;
 }
@@ -98,10 +108,6 @@ ul {
 }
 
 .nav {
-  width: 1230px;
-  margin: auto;
-  padding-left: 15px;
-  padding-right: 15px;
   display: flex;
   align-items: center;
 }
@@ -109,7 +115,12 @@ ul {
 
 /* =======MAIN_PORTFOLIO_START======= */
 
-.images-tittle {
+.portfolio-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.images-title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -139,14 +150,9 @@ ul {
 }
 
 .buttons-menu {
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: auto;
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  margin-top: 94px;
 }
 
 .buttons-menu .buttons-item + .buttons-item {
@@ -168,30 +174,21 @@ ul {
 }
 
 .cards-menu {
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 94px;
-  margin: auto;
   display: flex;
   flex-wrap: wrap;
 }
 
 .cards-item {
   width: 370px;
-  margin-bottom: 30px;
   outline: 1px solid #eeeeee;
-}
-
-.cards-item-down {
-  margin-bottom: 0px;
-}
-
-.cards-menu .cards-item {
   margin-right: 30px;
 }
 
-.cards-menu .cards-item:nth-child(3n) {
+.cards-item:nth-child(-n + 6) {
+  margin-bottom: 30px;
+}
+
+.cards-item:nth-child(3n + 3) {
   margin-right: 0px;
 }
 
@@ -205,19 +202,12 @@ ul {
 
 .hero {
   background-color: var(--background-footer-color);
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: auto;
-  padding: 200px 15px;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
-.hero-container {
-  background-color: var(--background-footer-color);
-}
-
-.hero-tittle {
+.hero-title {
   color: var(--background-color);
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -246,10 +236,6 @@ ul {
 }
 
 .qualities-menu {
-  width: 1230px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin: auto;
   display: flex;
 }
 
@@ -263,7 +249,7 @@ ul {
   margin-right: 30px;
 }
 
-.qualities-tittle {
+.qualities-title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.142;
@@ -283,43 +269,31 @@ ul {
   margin-top: 0px;
 }
 
-.our-vork-section {
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: auto;
-}
-
-.our-vork-menu {
-  display: flex;
+.our-work-section {
   padding-bottom: 94px;
 }
 
-.our-vork-menu .our-vork-item:not(:last-child) {
+.our-work-menu {
+  display: flex;
+}
+
+.our-work-menu .our-work-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.our-vork-link img {
+.our-work-link img {
   display: block;
-}
-
-.our-team-container {
-  background-color: var(--background-card-color);
 }
 
 .our-team {
   background-color: var(--background-card-color);
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
   padding-top: 94px;
-  margin: auto;
+  padding-bottom: 94px;
 }
 
 .our-team-menu {
   margin-bottom: 0px;
   display: flex;
-  padding-bottom: 94px;
 }
 
 .our-team-menu .our-team-item + .our-team-item {
@@ -350,7 +324,7 @@ ul {
   margin-bottom: 0px;
 }
 
-.our-team-tittle {
+.our-team-title {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -376,10 +350,6 @@ ul {
 
 /* ===========FOOTER_START============ */
 
-.footer-container {
-  background-color: var(--background-footer-color);
-}
-
 .footer-adress {
   margin-bottom: 9px;
 }
@@ -394,21 +364,14 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.contacts-footer {
-  padding-bottom: 60px;
-}
-
 .footer-item:first-child {
   margin-bottom: 9px;
 }
 
 .footer {
   background-color: var(--background-footer-color);
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
   padding-top: 60px;
-  margin: auto;
+  padding-bottom: 60px;
 }
 
 .address-link {
@@ -424,7 +387,7 @@ ul {
 /* ===========FOOTER_END============ */
 
 /* ==========SERVISES_START========== */
-.section-tittle {
+.section-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.166;
