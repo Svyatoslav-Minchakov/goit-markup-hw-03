@@ -13,6 +13,14 @@ body {
   box-sizing: border-box;
 }
 
+img {
+  display: block;
+}
+
+a {
+  display: block;
+}
+
 ul {
   list-style-type: none;
   padding-left: 0px;
@@ -34,6 +42,7 @@ ul {
 .header {
   padding-bottom: 32px;
   padding-top: 32px;
+  border-bottom: 1px solid #ececec;
 }
 
 .container-logo {
@@ -86,10 +95,7 @@ ul {
 .contacts {
   display: flex;
   margin-left: auto;
-}
-
-.contacts li {
-  padding: 10px;
+  align-items: center;
 }
 
 .contacts .contacts-item + .contacts-item {
@@ -107,13 +113,13 @@ ul {
   align-items: center;
 }
 
+.header .container {
+  display: flex;
+}
+
 .nav {
   display: flex;
   align-items: center;
-}
-
-.heder-box-for-flex {
-  display: flex;
 }
 
 /* ========HEADER_END======== */
@@ -293,10 +299,6 @@ ul {
 
 .our-work-menu .our-work-item:not(:last-child) {
   margin-right: 30px;
-}
-
-.our-work-link img {
-  display: block;
 }
 
 .our-team {
