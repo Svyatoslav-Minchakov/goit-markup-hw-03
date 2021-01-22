@@ -40,9 +40,12 @@ ul {
 /* =====HEADER_START===== */
 
 .header {
-  padding-bottom: 32px;
-  padding-top: 32px;
   border-bottom: 1px solid #ececec;
+}
+
+.header a {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .container-logo {
