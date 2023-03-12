@@ -41,6 +41,7 @@ img {
 /* ===header start=== */
 .page-header {
   border-bottom: 1px solid var(--changed-wite-color);
+  padding: 24px 15px;
 }
 
 .logo {
@@ -100,7 +101,7 @@ img {
 
 .page-header .container {
   display: flex;
-  padding: 24px 15px;
+
   justify-content: space-between;
 }
 
@@ -124,6 +125,7 @@ img {
 .hero {
   color: var(--white-color);
   background-color: var(--background-color);
+  padding: 188px 0;
 }
 
 .hero_tittle {
@@ -158,12 +160,14 @@ img {
 }
 
 .hero_content {
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 /* ===hero end=== */
 
 /* ===description start=== */
+.description {
+  padding: 120px 0;
+}
+
 .description_list-tittle {
   font-weight: 500;
   font-size: 20px;
@@ -187,10 +191,6 @@ img {
   max-width: 264px;
 }
 
-.description .container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 /* ===description end=== */
 
 /* ===gallery start=== */
